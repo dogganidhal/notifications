@@ -113,8 +113,8 @@ class _HomePageState extends State<HomePage> {
                                 color: ColorBook.color2)),
                         onTap: () {
                           Navigator.pop(context);
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => Sunan()));
+                          /*Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Sunan()));*/
                         },
                       ),
                     ),

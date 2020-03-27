@@ -1,4 +1,4 @@
-class JsonItems {
+/*class JsonItems {
   String title;
   List<Texts> text;
 
@@ -25,3 +25,4 @@ class Texts {
     );
   }
 }
+*/
