@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> {
                         color: ColorBook.color3,
                       ),
                     ),
-                    new Container(
+                    /*new Container(
                       child: ListTile(
                         title: Text(Const.sunan,
                             style: TextStyle(
@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
                       child: Container(
                         color: ColorBook.color3,
                       ),
-                    ),
+                    ),*/
                   ],
                 ),
               ),

@@ -68,7 +68,7 @@ class _AdhkarPageState extends State<Adhkar> {
         var platform = new NotificationDetails(android, iOS);
         await flutterLocalNotificationsPlugin.periodicallyShow(
             0, 'تذكير للدعاء', 'اللهم ارحمه واغفرله وآنس وحشته ووسع قبره',
-            RepeatInterval.EveryMinute,
+            RepeatInterval.EveryDay,
             platform, payload: 'اللهم ارحمه واغفرله وآنس وحشته ووسع قبره اللهم اجعل عيده في الجنة أجمل، اللهمّ اجعل قبره روضةً من رياض الجنّة، ولا تجعله حفرةً من حفر النّار.'
 
         );
